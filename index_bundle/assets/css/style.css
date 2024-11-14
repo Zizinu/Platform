@@ -27,8 +27,8 @@ body{
 }
 
 .item{
-	width: 2em;
-	height: 2em;
+	width: 4em;
+	height: 4em;
 	object-fit: contain;
 	margin: 40px;
 	column-count: auto;
