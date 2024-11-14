@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "CompagnonLight";
+	background: rgb(195,34,34);
+	background: -moz-linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(45,62,253,1) 100%);
+	background: -webkit-linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(45,62,253,1) 100%);
+	background: linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(45,62,253,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c32222",endColorstr="#2d3efd",GradientType=1);
+	color: white;
+	font-size: 4em;
+	align-items: center;
+	text-align: center;
+}
+
+.container{
+	display: flex;
+	justify-content: space-evenly;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px; 
+  margin: 20px;
+	column-count: 4;
+	border: 10px dotted #a050ff;
+
+}
+
+.item{
+	width: 10em;
+	height: 10em;
+	object-fit: contain;
+	margin: 40px;
+	column-count: auto;
+}
